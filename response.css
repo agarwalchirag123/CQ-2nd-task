@@ -1,0 +1,374 @@
+*{margin: 0%;
+padding: 0%;}
+
+
+.logo{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(posterphoto.webp);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+	padding: 2% 6%;
+	list-style: none;
+	font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+}
+.nav-links li{
+	display: inline;
+    
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+    position: relative;
+}
+nav a{
+	color: white;
+	font-size: 22px;
+	padding-left: 100px;
+	text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav a:hover{
+    color: blue;
+}
+.poster{
+    width: 90%;
+    color: tomato;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+
+}
+
+
+.button{
+    display: inline;
+    text-decoration: none;
+    color: white;
+    padding: 43% ;
+    font-size: 13px;
+    position: relative;
+    text-align: center;
+}
+.button:hover{
+    color: tomato;
+}
+ 
+ @media (max-width: 700px) {
+     
+      .poster h1{
+          font-size: 20px;
+      }
+      .nav-links{
+          position: absolute;
+          height: 100vh;
+          width: 250px;
+          top: 0;
+          right: 0;
+          text-align: left;
+      }
+      .button{
+          padding: 40%;
+      }
+    }
+
+  
+.sectionmenu{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    height: auto;
+    
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+}
+p{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 11px;
+    padding: 10px;
+    text-align: center;
+}
+h3{
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+}
+.Menu{
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-between;
+ 
+}
+.items{
+    flex-basis: 22%;
+    background-color: skyblue;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+
+}
+.Menu img{
+    height: 60%;
+    justify-content: space-between;
+    width: 65%;
+}
+
+.menu{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.menu1{
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-between;
+}
+
+.items1{
+    flex-basis: 30%;
+    background-color: blanchedalmond ;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+.menu1 img{
+    height: 60%;
+    justify-content: space-between;
+    width: 65%;
+}
+.menu2{
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-between;
+}
+.items2{
+    flex-basis: 31%;
+    background-color: blanchedalmond ;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+.menu2 img{
+    height: 45%;
+    justify-content: space-between;
+    width: 70%;
+}
+.items3{
+    flex-basis: 32%;
+    background-color: skyblue ;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+
+}
+.menu3{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding-top: 60px;
+}
+.menu3{
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-between;
+}
+.menu3 img{
+    height: 200px;
+    justify-content: space-between;
+    width: auto;
+}
+.testimonials{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    
+}
+.testimonial{
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-between;
+ 
+}
+.customer{
+    flex-basis: 22%;
+    background-color: blanchedalmond ;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+.testimonial img{
+    height: 200px;
+    justify-content: space-between;
+    width: auto;
+}
+.contact{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    
+}
+.about{
+    display: flex;
+    margin-top: 5%;
+ 
+}
+.contactus{
+    flex-basis: 65%;
+    background-color: skyblue ;
+    border-radius: 3px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+.contactus p{
+    color: brown;
+}
+.Last{
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media  (max-width:700px) {
+    .Menu h3{
+        font-size: 18px;
+    }
+    .Menu {
+
+        padding-right: 1px;
+    }
+    .Menu p{
+        font-size: 10px;
+    }
+    .Menu{
+        border: 20px;
+        border-radius: 0px;
+    }
+    .Menu img{
+        height: 40%;
+        width: 65%;
+    }
+    .menu1 h3{
+            font-size: 12px;
+            padding: 3px;
+            font-weight: bolder;
+        }
+        .menu1 {
+            width: 100%;
+            padding-right: 1px;
+        }
+        .menu1 p{
+            font-size: 12px;
+            line-height: 10px;
+            padding: 2px;
+        }
+        .menu1 img{
+            height: 40%;
+            width: 65%;
+}
+.items1{
+    width: 35%;
+    justify-content: space-between;
+}
+.items2{
+    width: 50%;
+    justify-content: space-between;
+}
+.items{
+    width: 30%;
+    justify-content: space-between;
+}
+.menu2 h3{
+    font-size: 12px;
+    padding: 3px;
+    font-weight: bolder;
+}
+.menu2 {
+    width: 100%;
+    padding-right: 1px;
+}
+.menu2 p{
+    font-size: 12px;
+    line-height: 10px;
+    padding: 2px;
+}
+.menu2 img{
+    height: 40%;
+    width: 65%;
+}
+.menu2 h3{
+    font-size: 12px;
+    padding: 3px;
+    font-weight: bolder;
+}
+.menu3 {
+    width: 100%;
+    padding-right: 1px;
+}
+.menu3 p{
+    font-size: 12px;
+    line-height: 10px;
+    padding: 2px;
+}
+.menu3 img{
+    height: 70%;
+    width: 65%;
+}
+.menu3 h3{
+    font-size: 12px;
+    padding: 3px;
+    font-weight: bolder;
+}
+.testimonial {
+    width: 100%;
+    padding-right: 0px;
+    justify-content: space-around;
+}
+.testimonial p{
+    font-size: 10px;
+    line-height: 10px;
+    padding: 2px;
+}
+.testimonial img{
+    height: 40%;
+    width: 65%;
+}
+.testimonial h3{
+    font-size: 12px;
+    padding: 3px;
+    font-weight: bolder;
+}
+.customer{
+    width: 50%;
+}
+.contactus h3{
+    font-size: 18px;
+}
+.contactus h2{
+    font-size: 18px;
+}
+}
